@@ -20,15 +20,17 @@ Technologies Used :
 - Node.js
 
 
-bash : 
-to install typeScript : 
+Git bash usage : 
+
+To install typeScript : 
 npm install -g typescript
 
 To compile the TypeScript file:
+tsc --init
 tsc solutions.ts
 
-Run the generated JavaScript file:
-node solutions.js
+To align with changes to js file : 
+tsc --watch 
 
 Through this assignment, I got a better understanding of TypeScript's type system, generics, interfaces, 
 object-oriented programming, and asynchronous operations. It also helped me become more comfortable writing 
